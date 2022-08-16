@@ -90,6 +90,22 @@ img {
   line-height: 1.2;
   color: var(--logo-color);
 }
+/*------------------------DESIGN HEADER----------------------*/
+.current {
+  color: var(--logo-color);
+  position: relative;
+}
+
+.current::after {
+  display: block;
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+  border-radius: 2px;
+  bottom: -1px;
+}
 /*-------------------------NAV-----------------------*/
 .nav {
   display: flex;
@@ -673,8 +689,20 @@ img {
   margin-left: 10px;
 }
 
-/**********************button***************************/
+/*---------------------PORTFOLIO----------------------------*/
 
+.portfolio {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portfolio__list {
+  list-style: none;
+}
 .button-portfolio {
   display: inline-block;
   font-family: "Roboto";
@@ -752,22 +780,7 @@ img {
   background-size: contain;
 }
 
-/*------------------------DESIGN HEADER----------------------*/
-.current {
-  color: var(--logo-color);
-  position: relative;
-}
 
-.current::after {
-  display: block;
-  content: " ";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: currentColor;
-  border-radius: 2px;
-  bottom: -1px;
-}
 
 /*------------CAPTION TO THE PORTFOLIO-----------------*/
 .thumb-element {
@@ -813,8 +826,6 @@ img {
   transform: translateY(0);
   opacity: 1;
 }
-
-/*------------------SUBSCRIPTION------------------------------*/
 
 /*---------------------MODAL-WINDOW------------------------*/
 .backdrop {
