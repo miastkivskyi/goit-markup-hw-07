@@ -32,16 +32,13 @@
 }
 .features__title {
   color: $section-title-color;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  @extend %font-medium;
+  @extend %text-margin;
   margin-bottom: 10px;
 }
 
 .features__rubric {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @extend %font-text;
+  @extend %text-margin;
+  color: $primary-text-color;
 }

@@ -1,3 +1,32 @@
+%font-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+%font-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+%font-medium {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+%font-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 %container {
   width: 1200px;
   margin-left: auto;

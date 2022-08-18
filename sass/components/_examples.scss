@@ -4,13 +4,9 @@
 }
 .examples__title {
   color: $section-title-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  @extend %font-title;
   @extend %text-margin;
+  margin-bottom: 50px;
 }
 
 .examples__list {
@@ -28,12 +24,7 @@
 }
 
 .thumb__signature {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  @extend %font-medium;
   position: absolute;
   width: 100%;
   bottom: 0;
