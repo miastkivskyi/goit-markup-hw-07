@@ -30,6 +30,7 @@
   width: 696px;
   display: inline-block;
   margin-bottom: 30px;
+  @extend %text-margin;
 }
 .hero__button {
   color: $primary-white-color;

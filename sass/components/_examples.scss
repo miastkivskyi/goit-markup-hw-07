@@ -1,0 +1,46 @@
+.examples {
+  @extend %container;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.examples__title {
+  color: $section-title-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  @extend %text-margin;
+}
+
+.examples__list {
+  display: flex;
+  @extend %list;
+}
+.examples__img:not(:last-child) {
+  margin-right: 30px;
+}
+.thumb {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.thumb__signature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+  color: $primary-white-color;
+  background-color: $thumb-color;
+  @extend %text-margin;
+  @extend %flex;
+}

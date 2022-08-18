@@ -25,3 +25,13 @@
   padding: 0;
   list-style: none;
 }
+
+%text-margin {
+  margin: 0;
+}
+
+%flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

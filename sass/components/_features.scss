@@ -1,0 +1,48 @@
+.section-sample {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features {
+  @extend %container;
+  padding-top: 94px;
+}
+
+.features__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.features__bckg {
+  background: $button-basis;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin: 0px;
+  margin-bottom: 30px;
+  @extend %flex;
+}
+
+.features__icon {
+  display: block;
+}
+.features__title {
+  color: $section-title-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features__rubric {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
