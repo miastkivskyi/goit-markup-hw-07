@@ -1,7 +1,6 @@
 .examples {
   @extend %container;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %position-section;
 }
 .examples__title {
   color: $section-title-color;

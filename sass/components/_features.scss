@@ -1,6 +1,5 @@
 .section-sample {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %position-section;
 }
 
 .features {
