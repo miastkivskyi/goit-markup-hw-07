@@ -26,6 +26,29 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+%font-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+%font-set-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+}
+%font-set-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+%font-thumb-text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
 
 %container {
   width: 1200px;
